@@ -14,7 +14,7 @@ A microservice is a piece of code that could be rewritten in two weeks and feels
 
 ##### Focused on One Thing
 
-Microservices follow single responsibility principle. All services are independent and focused on doing one specific functionality.
+Microservices follow the single responsibility principle. All services are independent and focused on doing one specific functionality.
 
 #### Autonomous
 
@@ -44,7 +44,7 @@ In microservices application, we can scale only services that need scaling. Unli
 
 #### Ease of Deployment
 
-With microservices, we can make a change to a single service and deploy it independently. This allows us to get our code deployed faster. If a problem does occur, it can be isolated quickly to an individual service, making fast rollback easy to achieve. Unlike monolithic application, small change requires the whole application to be deployed. This makes deployments end up happening infrequently.
+With microservices, we can make a change to a single service and deploy it independently. This allows us to get our code deployed faster. If a problem does occur, it can be isolated quickly to an individual service, making fast rollback easy to achieve. Unlike a monolithic application, small change requires the whole application to be deployed. This makes deployments end up happening infrequently.
 
 #### Organizational Alignment
 
@@ -62,7 +62,7 @@ With our individual services being small in size, the cost to replace them with 
 
 Service-oriented architecture (SOA) is a design approach where multiple services collaborate to provide some end set of capabilities. A service here typically means a completely separate operating system process. Communication between these services occurs via calls across a network rather than method calls within a process boundary.
 
-It aims to promote the reusability of software, make it easier to maintain or rewrite software. <u>The microservices is a specific approach to do SOA well.</u>
+It aims to promote the reusability of software and make it easier to maintain or rewrite software. <ins>The microservices is a specific approach to do SOA well.</ins>
 
 ### Other Decompositional Techniques
 
@@ -70,7 +70,7 @@ It aims to promote the reusability of software, make it easier to maintain or re
 
 A standard decompositional technique is breaking down a codebase into multiple libraries. Libraries give you a way to share functionality between teams and services.
 
-But there are some drawbacks. You lose technology heterogeneity, the ease with scaling, your ability to deploy changes in isolation.
+But there are some drawbacks. You lose technology heterogeneity, the ease with scaling, and your ability to deploy changes in isolation.
 
 #### Modules
 

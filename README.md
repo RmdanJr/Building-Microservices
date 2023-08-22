@@ -99,3 +99,27 @@ We have to accept that once the software gets into the hands of our customers we
 
 Zones are our service boundaries, or perhaps coarse-grained groups of services. We need to worry much less about what happens inside the zone than what happens between the zones. That means we need to spend time thinking about how our services talk to each other, or ensuring that we can properly monitor the overall health of our system.
 
+### A Principled Approach
+
+Defining a set of principles and practices helps us make decisions based on goals that we are trying to achieve.
+
+#### Strategic Goals
+
+Architects need to make sure the technology is aligned to organization high-level business goals.
+
+####  Principles
+
+Principles are rules you have made in order to align what you are doing to some larger goal, and will sometimes change. It's important to have a small number of principles to ensure that people can remember them and to not contradict each other.
+
+#### Practices
+
+Practices are how we ensure our principles are being carried out. They are a set of detailed practical technology-specific guidance for performing tasks.
+
+#### Combining Principles and Practices
+
+One person’s principles are another’s practices. For a small group combining principles and practices might be OK. For larger organizations, you may want a different set of practices in different places, as long as they both map to a common set of principles.
+
+#### A Real-World Example
+
+![Figure 2-1. A real-world example of principles and practices](https://arham-jain.github.io/static/img/post/a-real-world-example.png)
+
